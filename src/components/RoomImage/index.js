@@ -8,13 +8,21 @@ import './index.scss';
 const RoomImage = ({
     lightsOn
 }) => {
-    const lightImageSet = `${lightsOnImageSmall} 400w, ${lightsOnImageBig} 768w`;
-    const darkImageSet = `${lightsOffImageSmall} 400w, ${lightsOffImageBig} 768w`;
-    const image = (lightsOn) ? lightsOnImageSmall : lightsOffImageSmall
+    const lightImageSet = `${lightsOnImageSmall} 400w, ${lightsOnImageBig} 768w, ${lightsOnImageBig} 1400w`;
+    const darkImageSet = `${lightsOffImageSmall} 400w, ${lightsOffImageBig} 768w,  ${lightsOffImageBig} 1400w`;
+    const image = (lightsOn) ? lightsOnImageBig : lightsOffImageBig
     const imageSet = (lightsOn) ? lightImageSet : darkImageSet
 
     return (
-        <img src={image} srcset={imageSet} alt={'room-art'}/>
+        <img 
+            src={image} 
+            srcset={imageSet} 
+            alt={'room-art'} 
+            style={{
+                maxHeight: 400,
+                maxWidth: 768
+            }}
+        />
     )
 }
 
