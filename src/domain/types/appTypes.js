@@ -1,0 +1,1 @@
+export const TOGGLE_LIGHTS = 'TOGGLE_LIGHTS';

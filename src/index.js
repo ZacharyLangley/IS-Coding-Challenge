@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './screens/App';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router'
+
+import App from './screens/App';
 import * as serviceWorker from './serviceWorker';
+
+import 'antd/dist/antd.css';
+import './index.scss';
 
 import configureStore, { history } from './configureStore'
 const store = configureStore()

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router'
-import Room from './Room/Room';
+import Room from './Room';
 
 const Routes = () => (
     <Switch>
