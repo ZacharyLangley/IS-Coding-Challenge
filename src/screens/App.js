@@ -2,11 +2,11 @@ import React from 'react';
 import './App.scss';
 import Routes from './Routes';
 
+import { GlobalLayout } from '../components';
+
 function App() {
   return (
-    <div className="app-container">
-      <Routes />
-    </div>
+    <GlobalLayout body={<Routes/>}/>
   );
 }
 

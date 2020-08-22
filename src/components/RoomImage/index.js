@@ -6,10 +6,9 @@ import './index.scss';
 const RoomImage = ({
     lightsOn
 }) => {
-
     const image = (lightsOn) ? lightsOnImage : lightsOffImage
 
-    return (<img src={image} />)
+    return (<img src={image} alt={'room-art'}/>)
 }
 
 export default RoomImage;

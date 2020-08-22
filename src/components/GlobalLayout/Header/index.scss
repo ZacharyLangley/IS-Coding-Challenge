@@ -1,0 +1,43 @@
+$primaryColor: #5eb8ff;
+$secondaryColor: #F5FCFF;
+$quaternaryColor: #12130F;
+$headerColor: #FFFFFF;
+$headerHeight: 60px;
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    align-items: center;
+    justify-content: space-between;
+    height: $headerHeight;
+    background-color: $headerColor;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.28);
+    padding: 5px 20px;
+    z-index: 1;
+
+    .branding-container {
+        .anticon {
+            font-size: 20px;
+            margin-right: 4px;
+        }
+        .branding-text {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    .light-switch-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .light-switch-text {
+            margin-right: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
