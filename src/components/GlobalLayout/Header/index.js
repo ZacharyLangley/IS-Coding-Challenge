@@ -8,7 +8,11 @@ import './index.scss';
 const lightsOnColor = '#ffffff';
 const lightsOffColor = '#424242';
 
-const Header = ({ toggleLights, lightsOn }) => {
+const Header = ({ 
+    toggleLights,
+    lightsOn
+}) => {
+
     const getBranding = () => (
         <div className={'branding-container'}>
             <InsertRowRightOutlined />
@@ -25,6 +29,7 @@ const Header = ({ toggleLights, lightsOn }) => {
 
     const backgroundColor = (lightsOn) ? lightsOnColor : lightsOffColor;
     const color = (lightsOn) ? lightsOffColor : lightsOnColor;
+    
     return (
         <div className={'header-container'} style={{ backgroundColor, color }}>
             {getBranding()}

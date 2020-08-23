@@ -1,8 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+
+import RoomImage from './index';
 
 // Smoke Test
 it('renders without crashing', () => {
-  shallow(<App />);
+  shallow(<RoomImage lightsOn={true} />);
 });

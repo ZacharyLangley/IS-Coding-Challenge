@@ -9,12 +9,12 @@ export const history = createBrowserHistory()
 
 export default function configureStore(preloadedState) {
   const store = createStore(
-    createRootReducer(history), // root reducer with router state
+    createRootReducer(history), // Root reducer with router state
     preloadedState,
     compose(
       applyMiddleware(
-        routerMiddleware(history), // for dispatching history actions
-        reduxThunk
+        routerMiddleware(history), // For dispatching history actions
+        reduxThunk // Async/Sync Redux Middleware
       ),
     ),
   )

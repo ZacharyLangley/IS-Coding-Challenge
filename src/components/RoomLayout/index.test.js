@@ -1,8 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+
+import RoomLayout from './index';
 
 // Smoke Test
 it('renders without crashing', () => {
-  shallow(<App />);
+  shallow(<RoomLayout musicPlayer={<div/>} roomImage={<div/>} />);
 });
