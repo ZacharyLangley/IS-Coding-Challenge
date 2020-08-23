@@ -1,4 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repo: [Link](https://github.com/ZacharyLangley/IS-Coding-Challenge)
+
+Libraries Include:
+### State Management
+
+* [Redux](https://github.com/reduxjs/redux) - Immutable Global State Management
+* [React-Redux](https://github.com/reduxjs/react-redux) - React Bindings for Redux
+* [Redux-Thunk](https://github.com/reduxjs/redux-thunk) - Async/Sync Middleware for async updates to Redux store along with handling Redux side effects.
+
+### Navigation
+
+* [React-Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router) - Core Routing Functionality
+* [React-Router-DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) - DOM Bindings for React-Router
+* [Connected-React-Router](https://github.com/supasate/connected-react-router) - Redux Binding for React Router
+* [History](https://github.com/ReactTraining/history#readme) - Session history management
+
+## UI Library / Styles
+
+* [Ant-Design](https://github.com/ant-design/ant-design) - UI Library for General Components to speed up development.
+* [Node-Sass]() - Node.js bindings for LibSass to allow the use of Sass in development.
+
+### Misc.
+
+* [React-Spotify-Web-Playback](https://github.com/gilbarbara/react-spotify-web-playback) - Spotify Player for some ambience. No Auto Play, don't worry, this isn't MySpace.
 
 ## Available Scripts
 
