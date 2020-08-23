@@ -1,7 +1,12 @@
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 Repo: [Link](https://github.com/ZacharyLangley/IS-Coding-Challenge)
 
-Libraries Include:
+Website: [The-Mahjong-Room](https://www.themahjongroom.com/) - Complete with an AWS Amplify Build Pipeline and SSL Certification.
+
+## Libraries:
+
 ### State Management
 
 * [Redux](https://github.com/reduxjs/redux) - Immutable Global State Management
@@ -15,7 +20,7 @@ Libraries Include:
 * [Connected-React-Router](https://github.com/supasate/connected-react-router) - Redux Binding for React Router
 * [History](https://github.com/ReactTraining/history#readme) - Session history management
 
-## UI Library / Styles
+### UI Library / Styles
 
 * [Ant-Design](https://github.com/ant-design/ant-design) - UI Library for General Components to speed up development.
 * [Node-Sass]() - Node.js bindings for LibSass to allow the use of Sass in development.
