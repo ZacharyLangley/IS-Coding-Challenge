@@ -13,14 +13,14 @@ const Header = ({
     lightsOn
 }) => {
 
-    const getBranding = () => (
+    const branding = () => (
         <div className={'branding-container'}>
             <InsertRowRightOutlined />
             <span className={'branding-text'}>{'The Mahjong Room'}</span>
         </div>
     )
 
-    const getLightsToggle = () => (
+    const lightsToggle = () => (
         <div className={'light-switch-container'}>
             <span className={'light-switch-text'}>{`Lights ${lightsOn ? 'On' : 'Off'}`}</span>
             <RoomSwitch defaultChecked onChange={() => toggleLights()}/>
@@ -29,11 +29,11 @@ const Header = ({
 
     const backgroundColor = (lightsOn) ? lightsOnColor : lightsOffColor;
     const color = (lightsOn) ? lightsOffColor : lightsOnColor;
-    
+
     return (
         <div className={'header-container'} style={{ backgroundColor, color }}>
-            {getBranding()}
-            {getLightsToggle()}
+            {branding()}
+            {lightsToggle()}
         </div>
     )
 }
