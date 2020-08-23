@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { InsertRowRightOutlined } from '@ant-design/icons';
+import PropTypes from 'prop-types';
+
 import RoomSwitch from '../../RoomSwitch';
 import { toggleLights } from '../../../domain/actions';
 import './index.scss';
@@ -36,6 +38,11 @@ const Header = ({
             {lightsToggle()}
         </div>
     )
+}
+
+Header.propTypes = {
+    toggleLights: PropTypes.func,
+    lightsOn: PropTypes.bool
 }
 
 const mapStateToProps = (state) => ({

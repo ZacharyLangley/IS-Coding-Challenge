@@ -4,10 +4,12 @@ import Routes from './Routes';
 
 import { GlobalLayout } from '../components';
 
-function App() {
+const App = () => {
   return (
     <GlobalLayout body={<Routes/>}/>
   );
 }
+
+App.propTypes = {}
 
 export default App;

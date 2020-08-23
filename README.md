@@ -25,10 +25,6 @@ Website: [The-Mahjong-Room](https://www.themahjongroom.com/) - Complete with an 
 * [Ant-Design](https://github.com/ant-design/ant-design) - UI Library for General Components to speed up development.
 * [Node-Sass]() - Node.js bindings for LibSass to allow the use of Sass in development.
 
-### Misc.
-
-* [React-Spotify-Web-Playback](https://github.com/gilbarbara/react-spotify-web-playback) - Spotify Player for some ambience. No Auto Play, don't worry, this isn't MySpace.
-
 ## Available Scripts
 
 In the project directory, you can run:

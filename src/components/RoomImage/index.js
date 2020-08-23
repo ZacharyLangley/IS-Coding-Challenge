@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import lightsOnImageBig from '../../assets/daytime_room_768.png';
 import lightsOnImageSmall from '../../assets/daytime_room_200.png';
 import lightsOffImageBig from '../../assets/nighttime_room_768.png';
@@ -16,7 +18,7 @@ const RoomImage = ({
     return (
         <img 
             src={image} 
-            srcset={imageSet} 
+            srcSet={imageSet} 
             alt={'room-art'} 
             style={{
                 maxHeight: 400,
@@ -24,6 +26,10 @@ const RoomImage = ({
             }}
         />
     )
+}
+
+RoomImage.propTypes = {
+    lightsOn: PropTypes.bool.isRequired
 }
 
 export default RoomImage;
